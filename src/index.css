@@ -1,0 +1,27 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #F3F2ED;
+  color: #fff;
+  font-family: "Saira Condensed", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 80px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Saira Condensed";
+  src: local('Saira Condensed'), url(./fonts/SairaCondensed-Regular.ttf) format('truetype');
+}
