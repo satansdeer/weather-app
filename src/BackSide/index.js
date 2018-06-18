@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import CitiesList from "./CitiesList";
 import "./button.css";
 
-export class BackSide extends Component {
+export default class BackSide extends Component {
   static propTypes = {
     cities: PropTypes.arrayOf(
       PropTypes.shape({

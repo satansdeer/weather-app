@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackSide /> renders and matches the snapshot 1`] = `
+<div
+  className="card-back"
+>
+  <CitiesList
+    cities={
+      Array [
+        Object {
+          "title": "City 1",
+        },
+        Object {
+          "title": "City 2",
+        },
+      ]
+    }
+    currentCity={
+      Object {
+        "title": "City 1",
+      }
+    }
+  />
+  <button
+    className="button"
+  >
+    Apply
+  </button>
+</div>
+`;
