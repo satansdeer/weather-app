@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CitiesList /> renders and matches the snapshot 1`] = `
+<ul
+  className="list"
+>
+  <CityItem
+    city={
+      Object {
+        "title": "City 1",
+      }
+    }
+    isSelected={true}
+    key="City 1"
+  />
+  <CityItem
+    city={
+      Object {
+        "title": "City 2",
+      }
+    }
+    isSelected={false}
+    key="City 2"
+  />
+</ul>
+`;

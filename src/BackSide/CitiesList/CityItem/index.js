@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 
-export class CityItem extends Component {
+export default class CityItem extends Component {
   static propTypes = {
     onSelect: PropTypes.func,
-    isSelected: PropTypes.boolean,
+    isSelected: PropTypes.bool,
     city: PropTypes.shape({
       title: PropTypes.string.isRequired
     })

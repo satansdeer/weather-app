@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { CityItem } from "./CityItem";
+import CityItem from "./CityItem";
 import "./list.css";
 
 const CitiesList = ({ onSelect, cities, currentCity }) => {
@@ -27,7 +27,7 @@ CitiesList.propTypes = {
   ),
   currentCity: PropTypes.shape({
     title: PropTypes.string.isRequired
-  })
+  }).isRequired
 };
 
 export default CitiesList;

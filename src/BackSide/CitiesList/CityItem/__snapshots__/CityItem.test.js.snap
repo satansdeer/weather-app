@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CityItem /> when is not selected renders and matches the snapshot 1`] = `
+<li
+  className="list-item"
+  onClick={[Function]}
+>
+  Mock City
+</li>
+`;
+
+exports[`<CityItem /> when is selected renders and matches the snapshot 1`] = `
+<li
+  className="list-item is-selected"
+  onClick={[Function]}
+>
+  Mock City
+</li>
+`;
