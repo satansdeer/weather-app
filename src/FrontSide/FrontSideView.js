@@ -47,7 +47,9 @@ FrontSideView.propTypes = {
   icon: PropTypes.string.isRequired,
   temperature: PropTypes.string.isRequired,
   apparentTemperature: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
+  date: PropTypes.shape({
+    format: PropTypes.func
+  }).isRequired,
   currentCityTitle: PropTypes.string.isRequired,
   onClick: PropTypes.func
 };

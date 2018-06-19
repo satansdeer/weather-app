@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import moment from "moment";
 import { getWeatherForLocation } from "../api";
-import FrontSideView from "./FrontSideView.js";
+import FrontSideView from "./FrontSideView";
 import { Loader } from "./Loader";
 
-export class FrontSide extends Component {
+export default class FrontSide extends Component {
   static propTypes = {
     onClick: PropTypes.func,
     city: PropTypes.shape({

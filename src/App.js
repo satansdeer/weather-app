@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import BackSide from "./BackSide";
-import { FrontSide } from "./FrontSide";
+import FrontSide from "./FrontSide";
 import "./panel.css";
 import cities from "./cities.json";
 
