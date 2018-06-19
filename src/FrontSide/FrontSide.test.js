@@ -1,5 +1,4 @@
 import React from "react";
-import moment from "moment";
 import FrontSide from "./index";
 import FrontSideView from "./FrontSideView";
 import { Loader } from "./Loader";

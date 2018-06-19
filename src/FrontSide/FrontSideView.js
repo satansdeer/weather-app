@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { WeatherIcon } from "./WeatherIcon";
+import WeatherIcon from "./WeatherIcon";
 import "./card.css";
 import optionsIcon from "./icon.svg";
 

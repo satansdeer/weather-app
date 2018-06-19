@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherIcon /> renders and matches snapshot 1`] = `
+<img
+  alt="weather icon"
+  src="/icons/testIcon.svg"
+  width="120px"
+/>
+`;

@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-export const WeatherIcon = ({ icon, onClick }) => {
+const WeatherIcon = ({ icon, onClick }) => {
   return (
     <img
       src={`/icons/${icon}.svg`}
@@ -10,3 +11,10 @@ export const WeatherIcon = ({ icon, onClick }) => {
     />
   );
 };
+
+WeatherIcon.propTypes = {
+  icon: PropTypes.string,
+  onClick: PropTypes.func
+};
+
+export default WeatherIcon;
