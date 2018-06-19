@@ -1,7 +1,7 @@
 import React from "react";
 import FrontSide from "./index";
 import FrontSideView from "./FrontSideView";
-import { Loader } from "./Loader";
+import Loader from "./Loader";
 import toJson from "enzyme-to-json";
 import { shallow } from "enzyme";
 

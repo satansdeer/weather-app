@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import moment from "moment";
 import { getWeatherForLocation } from "../api";
 import FrontSideView from "./FrontSideView";
-import { Loader } from "./Loader";
+import Loader from "./Loader";
 
 export default class FrontSide extends Component {
   static propTypes = {
