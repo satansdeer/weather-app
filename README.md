@@ -1,9 +1,9 @@
-# Lesson - #2
+# Lesson - #3
 
-* [Video](https://www.youtube.com/watch?v=QkCzo2mXb0w)
+* [Video](https://www.youtube.com/watch?v=AvwD1kg-T-s)
 
-This time we'll add `panel.css` to style our card, add front and back sides.
+In this lesson we create `FrontSide` component.
 
 ## How To Run
 
-Clone the repo, checkout to `lesson-2`, run `yarn` and then `yarn start`.
+Clone the repo, checkout to `lesson-3`, run `yarn` and then `yarn start`.
