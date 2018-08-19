@@ -1,5 +1,6 @@
 import React from "react";
 import "./card.css";
+import optionsImage from "./options.svg";
 
 export default ({
   date,
@@ -10,12 +11,12 @@ export default ({
   currentCityName
 }) => {
   return (
-    <div className="card">
+    <div className="card is-clear-day">
       <div className="card-row">
         <div className="card-day">{date.format("dddd")}</div>
         <div className="card-day">{date.format("MMM Do")}</div>
       </div>
-      <div>{icon}</div>
+      <img src="/icons/clear-day.svg" alt="clear-day" width="120px" />
       <div className="card-row">
         <div className="card-temperature">
           {`${temperature}°`}
@@ -26,7 +27,9 @@ export default ({
       <div className="card-line" />
       <div className="card-row">
         <div className="card-city">{currentCityName}</div>
-        <button>Options</button>
+        <button className="card-options">
+          <img src={optionsImage} width={32} alt="options" />
+        </button>
       </div>
     </div>
   );
