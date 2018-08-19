@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FrontSide from "./FrontSide";
+import BackSide from "./BackSide";
 import "./panel.css";
 
 class App extends Component {
@@ -15,7 +16,9 @@ class App extends Component {
         <div className="panel-front">
           <FrontSide onClick={this.onFlip} />
         </div>
-        <div className="panel-back">Panel Back</div>
+        <div className="panel-back">
+          <BackSide onClick={this.onFlip} />
+        </div>
       </div>
     );
   }
