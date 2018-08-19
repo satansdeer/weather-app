@@ -13,6 +13,7 @@ class App extends Component {
             icon="default"
             temperature={19}
             apparentTemperature={15}
+            summary="Sunny"
             currentCityName="Stockholm"
           />
         </div>
