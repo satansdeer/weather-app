@@ -1,6 +1,6 @@
-# Lesson - #3
+# Lesson - #18
 
-* [Video](https://www.youtube.com/watch?v=AvwD1kg-T-s)
+* [Video](https://youtu.be/R4aAEBJdfXA)
 
 In this lesson we create `FrontSide` component.
 
