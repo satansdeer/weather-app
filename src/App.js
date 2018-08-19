@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FrontSide from "./FrontSide";
 import BackSide from "./BackSide";
 import "./panel.css";
+import cities from "./cities.json";
 
 class App extends Component {
   state = { flipped: false };
@@ -17,7 +18,7 @@ class App extends Component {
           <FrontSide onClick={this.onFlip} />
         </div>
         <div className="panel-back">
-          <BackSide onClick={this.onFlip} />
+          <BackSide cities={cities} onClick={this.onFlip} />
         </div>
       </div>
     );

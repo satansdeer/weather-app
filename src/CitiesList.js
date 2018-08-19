@@ -1,11 +1,12 @@
 import React from "react";
 import "./list.css";
 
-export default () => {
+export default ({ cities }) => {
   return (
     <ul className="list">
-      <li className="list-item">Saint-Petersburg</li>
-      <li className="list-item">Stockholm</li>
+      {cities.map(city => {
+        return <li className="list-item">{city.title}</li>;
+      })}
     </ul>
   );
 };
