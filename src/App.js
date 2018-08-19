@@ -11,6 +11,10 @@ class App extends Component {
     this.setState({ flipped: !this.state.flipped });
   };
 
+  onSelectCity = city => {
+    this.setState({ currentCity: city });
+  };
+
   render() {
     return (
       <div className={`panel ${this.state.flipped ? "flip" : ""}`}>
@@ -25,6 +29,7 @@ class App extends Component {
             cities={cities}
             onClick={this.onFlip}
             currentCity={this.state.currentCity}
+            onSelect={this.onSelectCity}
           />
         </div>
       </div>
