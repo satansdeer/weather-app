@@ -33,6 +33,7 @@ class FrontSide extends Component {
         apparentTemperature={apparentTemperature}
         summary={summary}
         currentCityName="Stockholm"
+        onClick={this.props.onClick}
       />
     );
   }

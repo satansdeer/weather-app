@@ -9,7 +9,8 @@ export default ({
   temperature,
   summary,
   apparentTemperature,
-  currentCityName
+  currentCityName,
+  onClick
 }) => {
   return (
     <div className={`card is-${icon}`}>
@@ -28,7 +29,7 @@ export default ({
       <div className="card-line" />
       <div className="card-row">
         <div className="card-city">{currentCityName}</div>
-        <button className="card-options">
+        <button className="card-options" onClick={onClick}>
           <img src={optionsImage} width={32} alt="options" />
         </button>
       </div>
